@@ -18,9 +18,7 @@ export const GifExpertApp = () => {
       <h2>GifExperApp</h2>
       <AddCategory setCategories={ setCategories } />
       <hr />
-
-      <button>Agregar</button>
-
+      
       <ol>
         {categories.map((category, index) => (
             <GifGrid 
